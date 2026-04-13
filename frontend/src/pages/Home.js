@@ -22,7 +22,7 @@ function Home() {
     async function checkTest() {
       setLoading(true);
       try {
-        const res = await axios.get(`http://localhost:5000/api/auth/can-take-test/${username}`);
+        const res = await axios.get(`https://f1-app-0vv0.onrender.com/api/auth/can-take-test/${username}`);
         setCanTakeTest(res.data.canTakeTest);
         setTestMsg(res.data.message || '');
       } catch (err) {
@@ -46,7 +46,7 @@ function Home() {
     setShowQuiz(false);
     // Mark test as completed for today
     try {
-      await axios.post('http://localhost:5000/api/auth/complete-test', { username });
+      await axios.post('https://f1-app-0vv0.onrender.com/api/auth/complete-test', { username });
       setCanTakeTest(false);
       setTestMsg("You've already completed today's test. Come back tomorrow!");
     } catch (err) {

@@ -14,7 +14,7 @@ function ResetPinPage() {
     setError('');
     try {
       const res = await axios.post(
-        'http://localhost:5000/api/auth/reset-pin',
+        'https://f1-app-0vv0.onrender.com/api/auth/reset-pin',
         { username, newPin },
         { headers: { Authorization: `Bearer ${adminToken}` } }
       );

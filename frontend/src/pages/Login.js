@@ -25,7 +25,7 @@ function Login() {
       return;
     }
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/login', form);
+      const res = await axios.post('https://f1-app-0vv0.onrender.com/api/auth/login', form);
       if (res.data.token && res.data.username) {
         localStorage.setItem('token', res.data.token);
         localStorage.setItem('username', res.data.username);
@@ -51,7 +51,7 @@ function Login() {
       return;
     }
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/forgot-pin', {
+      const res = await axios.post('https://f1-app-0vv0.onrender.com/api/auth/forgot-pin', {
         username: resetUsername,
         answer: resetAnswer,
         newPin: resetPin
