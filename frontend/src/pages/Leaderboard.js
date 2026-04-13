@@ -10,7 +10,7 @@ function Leaderboard() {
     async function fetchLeaderboard() {
       setLoading(true);
       try {
-        const res = await axios.get('http://localhost:5000/api/auth/leaderboard');
+        const res = await axios.get('https://f1-app-0vv0.onrender.com/api/auth/leaderboard');
         setData(res.data.leaderboard || []);
         setError('');
       } catch (err) {

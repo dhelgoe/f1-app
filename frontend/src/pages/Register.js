@@ -23,7 +23,7 @@ function Register() {
       return;
     }
     try {
-      await axios.post('http://localhost:5000/api/auth/register', form);
+      await axios.post('https://f1-app-0vv0.onrender.com/api/auth/register', form);
       alert('Account created! Please log in.');
       navigate('/login');
     } catch (err) {
