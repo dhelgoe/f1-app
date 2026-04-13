@@ -71,11 +71,11 @@ router.get('/leaderboard-month', async (req, res) => {
   try {
     // Use raw SQL for grouping and summing scores by username for the month
     const [results] = await TestResult.sequelize.query(`
-      SELECT username, SUM(score) as totalScore
-      FROM TestResults
-      WHERE strftime('%Y-%m', date) = :yearMonth
+      SELECT username, SUM(score) as "totalScore"
+      FROM "TestResults"
+      WHERE TO_CHAR(date, 'YYYY-MM') = :yearMonth
       GROUP BY username
-      ORDER BY totalScore DESC, MIN(createdAt) ASC
+      ORDER BY "totalScore" DESC, MIN("createdAt") ASC
       LIMIT 10;
     `, {
       replacements: { yearMonth },
