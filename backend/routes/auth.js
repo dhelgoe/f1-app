@@ -7,6 +7,18 @@ const MonthlyWinner = require('../models/MonthlyWinner');
 
 const router = express.Router();
 
+// DEBUG: Print all today's results
+router.get('/debug/todays-results', async (req, res) => {
+  const today = new Date().toISOString().slice(0, 10);
+  try {
+    const results = await TestResult.findAll({ where: { date: today }, order: [['score', 'DESC'], ['createdAt', 'ASC']] });
+    res.json({ results });
+  } catch (err) {
+    console.error('Debug error:', err);
+    res.status(500).json({ message: 'Server error fetching today\'s results.' });
+  }
+});
+
 // Reset PIN for a user (admin only)
 router.post('/reset-pin', async (req, res) => {
   // Require JWT in Authorization header
@@ -95,8 +107,14 @@ router.get('/monthly-winners', async (req, res) => {
 router.post('/save-result', async (req, res) => {
   const { username, score } = req.body;
   const today = new Date().toISOString().slice(0, 10);
+  console.log('Attempting to save result:', { username, score, date: today });
+  if (!username || typeof score !== 'number') {
+    console.error('Missing username or score:', { username, score });
+    return res.status(400).json({ message: 'Missing username or score.' });
+  }
   try {
-    await TestResult.create({ username, score, date: today });
+    const result = await TestResult.create({ username, score, date: today });
+    console.log('Result saved successfully:', result.toJSON());
     res.json({ message: 'Result saved.' });
   } catch (err) {
     console.error('Save result error:', err);

@@ -27,7 +27,7 @@ function Quiz({ onFinish }) {
     const fetchQuestions = async () => {
       try {
         setLoading(true);
-        const res = await axios.get('https://f1-app-0vv0.onrender.com/api/questions');
+        const res = await axios.get('http://localhost:5000/api/questions');
         setQuestions(res.data.questions);
         setLoading(false);
       } catch (err) {
@@ -104,7 +104,7 @@ function Quiz({ onFinish }) {
       if (!showLeaderboard && username) {
         setSaving(true);
         try {
-          await axios.post('https://f1-app-0vv0.onrender.com/api/auth/save-result', { username, score });
+          await axios.post('http://localhost:5000/api/auth/save-result', { username, score });
         } catch (err) {
           // ignore error, leaderboard will still show
         }
@@ -138,7 +138,7 @@ function Quiz({ onFinish }) {
         <span style={{ color: timer <= 5 ? 'red' : '#fff', fontWeight: 'bold', fontSize: 18 }}>⏰ {timer}s</span>
       </div>
       {q.image && (
-        <img src={`https://f1-app-0vv0.onrender.com/${q.image.startsWith('/') ? q.image.slice(1) : q.image}`} alt="track outline" style={{ display: 'block', margin: '1rem auto', maxWidth: '100%', border: '2px solid #e10600', borderRadius: 8 }} />
+        <img src={`http://localhost:5000/${q.image.startsWith('/') ? q.image.slice(1) : q.image}`} alt="track outline" style={{ display: 'block', margin: '1rem auto', maxWidth: '100%', border: '2px solid #e10600', borderRadius: 8 }} />
       )}
       <div style={{ marginBottom: '1rem' }}>
         {q.options.map((opt, i) => (

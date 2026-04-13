@@ -10,7 +10,7 @@ function MonthlyLeaderboard() {
     async function fetchLeaderboard() {
       setLoading(true);
       try {
-        const res = await axios.get('https://f1-app-0vv0.onrender.com/api/auth/leaderboard-month');
+        const res = await axios.get('http://localhost:5000/api/auth/leaderboard-month');
         let leaderboard = res.data.leaderboard;
         // If leaderboard is a single object, wrap it in an array
         if (leaderboard && !Array.isArray(leaderboard)) {

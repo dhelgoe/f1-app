@@ -114,6 +114,12 @@ tr:nth-child(even) {
 @media (max-width: 600px) {
   .auth-container, .home-container, .quiz-container, .leaderboard-container {
     max-width: 98vw;
-    padding: 1rem 0.5rem;
+    padding: 1.5rem 1rem;
+    box-sizing: border-box;
+  }
+  .auth-container input, .auth-container button {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
   }
 }
