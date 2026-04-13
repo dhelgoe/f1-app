@@ -1,0 +1,663 @@
+[
+  {
+    "question": "Which track is shown in this outline?",
+    "options": ["Monza", "Silverstone", "Spa-Francorchamps", "Suzuka"],
+    "answer": 0,
+    "difficulty": "medium",
+    "topic": "tracks",
+    "image": "images/monza.png"
+  },
+  {
+    "question": "Who won the 2021 Formula 1 Drivers' Championship?",
+    "options": ["Lewis Hamilton", "Max Verstappen", "Charles Leclerc", "Sergio Perez"],
+    "answer": 1,
+    "difficulty": "easy",
+    "year": 2021,
+    "topic": "champions"
+  },
+  {
+    "question": "Which team won the Constructors' Championship in 2022?",
+    "options": ["Red Bull", "Mercedes", "Ferrari", "McLaren"],
+    "answer": 0,
+    "difficulty": "easy",
+    "year": 2022,
+    "topic": "champions"
+  },
+  {
+    "question": "Who was a driver for Haas in the 2022 season?",
+    "options": ["Kevin Magnussen", "Sebastian Vettel", "Carlos Sainz", "Esteban Ocon"],
+    "answer": 0,
+    "difficulty": "easy",
+    "year": 2022,
+    "topic": "drivers"
+  },
+  {
+    "question": "Which team is nicknamed the 'Silver Arrows'?",
+    "options": ["Ferrari", "Red Bull", "Mercedes", "Aston Martin"],
+    "answer": 2,
+    "difficulty": "easy",
+    "topic": "nicknames"
+  },
+  {
+    "question": "Who had the most wins in the 2023 season?",
+    "options": ["Lewis Hamilton", "Max Verstappen", "Charles Leclerc", "Lando Norris"],
+    "answer": 1,
+    "difficulty": "medium",
+    "year": 2023,
+    "topic": "stats"
+  },
+  {
+    "question": "Which team finished last in the Constructors' Championship in 2021?",
+    "options": ["Williams", "Alfa Romeo", "Haas", "AlphaTauri"],
+    "answer": 2,
+    "difficulty": "easy",
+    "year": 2021,
+    "topic": "standings"
+  },
+  {
+    "question": "Who was the team principal of Ferrari in 2022?",
+    "options": ["Mattia Binotto", "Christian Horner", "Toto Wolff", "Franz Tost"],
+    "answer": 0,
+    "difficulty": "medium",
+    "year": 2022,
+    "topic": "principals"
+  },
+  {
+    "question": "Which team had HP as a sponsor in 2024?",
+    "options": ["Ferrari", "Red Bull", "Mercedes", "Aston Martin"],
+    "answer": 0,
+    "difficulty": "medium",
+    "year": 2024,
+    "topic": "sponsors"
+  },
+  {
+    "question": "What is the minimum weight of an F1 car in 2023 (without fuel)?",
+    "options": ["752 kg", "798 kg", "820 kg", "900 kg"],
+    "answer": 1,
+    "difficulty": "hard",
+    "year": 2023,
+    "topic": "technical"
+  },
+  {
+    "question": "Who won the 2022 Monaco Grand Prix?",
+    "options": ["Charles Leclerc", "Sergio Perez", "Carlos Sainz", "Lewis Hamilton"],
+    "answer": 1,
+    "difficulty": "medium",
+    "year": 2022,
+    "topic": "races"
+  },
+  {
+    "question": "Which team had the fastest average pit stop time in 2023?",
+    "options": ["Red Bull", "Ferrari", "McLaren", "Aston Martin"],
+    "answer": 0,
+    "difficulty": "hard",
+    "year": 2023,
+    "topic": "stats"
+  },
+  {
+    "question": "Who had the most DNFs in the 2022 season?",
+    "options": ["Fernando Alonso", "Mick Schumacher", "Valtteri Bottas", "Yuki Tsunoda"],
+    "answer": 1,
+    "difficulty": "hard",
+    "year": 2022,
+    "topic": "stats"
+  },
+  {
+    "question": "Which driver is known as the 'Honey Badger'?",
+    "options": ["Daniel Ricciardo", "Lewis Hamilton", "George Russell", "Pierre Gasly"],
+    "answer": 0,
+    "difficulty": "easy",
+    "topic": "nicknames"
+  },
+  {
+    "question": "What is the average top speed of an F1 car on a long straight?",
+    "options": ["320 km/h", "350 km/h", "370 km/h", "400 km/h"],
+    "answer": 1,
+    "difficulty": "medium",
+    "topic": "technical"
+  },
+  {
+    "question": "Which driver won the 2024 British Grand Prix?",
+    "options": ["Lewis Hamilton", "Lando Norris", "Max Verstappen", "George Russell"],
+    "answer": 2,
+    "difficulty": "medium",
+    "year": 2024,
+    "topic": "races"
+  },
+  {
+    "question": "Which team is known as the 'Prancing Horse'?",
+    "options": ["Ferrari", "Red Bull", "Mercedes", "Alpine"],
+    "answer": 0,
+    "difficulty": "easy",
+    "topic": "nicknames"
+  },
+  {
+    "question": "Who was the rookie driver for Williams in 2023?",
+    "options": ["Logan Sargeant", "Oscar Piastri", "Nyck de Vries", "Zhou Guanyu"],
+    "answer": 0,
+    "difficulty": "medium",
+    "year": 2023,
+    "topic": "drivers"
+  },
+  {
+    "question": "Which team finished last in the Constructors' Championship in 2023?",
+    "options": ["AlphaTauri", "Williams", "Haas", "Alfa Romeo"],
+    "answer": 1,
+    "difficulty": "easy",
+    "year": 2023,
+    "topic": "standings"
+  },
+  {
+    "question": "Who had the most pole positions in the 2022 season?",
+    "options": ["Charles Leclerc", "Max Verstappen", "Lewis Hamilton", "Carlos Sainz"],
+    "answer": 0,
+    "difficulty": "medium",
+    "year": 2022,
+    "topic": "stats"
+  },
+  {
+    "question": "Which team is known as the 'Bulls'?",
+    "options": ["Red Bull", "Ferrari", "Mercedes", "Alpine"],
+    "answer": 0,
+    "difficulty": "easy",
+    "topic": "nicknames"
+  },
+  {
+    "question": "Which track is shown in this outline?",
+    "options": ["Monza", "Silverstone", "Spa-Francorchamps", "Suzuka"],
+    "answer": 0,
+    "difficulty": "medium",
+    "topic": "tracks",
+    "image": "images/monza.png"
+  },
+  {
+    "question": "Which US track is shown in this outline?",
+    "options": ["Circuit of the Americas (COTA)", "Miami", "Las Vegas", "Indianapolis"],
+    "answer": 0,
+    "difficulty": "medium",
+    "topic": "tracks",
+    "image": "images/cota.png"
+  },
+  {
+    "question": "Which US track is shown in this outline?",
+    "options": ["Miami", "Austin", "Las Vegas", "Detroit"],
+    "answer": 0,
+    "difficulty": "medium",
+    "topic": "tracks",
+    "image": "images/miami.png"
+  },
+  {
+    "question": "Which US track is shown in this outline?",
+    "options": ["Las Vegas", "Miami", "Cota", "Long Beach"],
+    "answer": 0,
+    "difficulty": "medium",
+    "topic": "tracks",
+    "image": "images/vegas.png"
+  },
+  {
+    "question": "Which Canadian track is shown in this outline?",
+    "options": ["Montreal", "Mont-Tremblant", "Mosport Park", "Toronto"],
+    "answer": 0,
+    "difficulty": "medium",
+    "topic": "tracks",
+    "image": "images/gillesvilleneuve.png"
+  },
+  {
+    "question": "Which track is shown in this outline?",
+    "options": ["Monaco", "Baku", "Singapore", "Jeddah"],
+    "answer": 0,
+    "difficulty": "medium",
+    "topic": "tracks",
+    "image": "images/monaco.png"
+  },
+  {
+    "question": "Which track is shown in this outline?",
+    "options": ["Spa-Francorchamps", "Monza", "Silverstone", "Hungaroring"],
+    "answer": 0,
+    "difficulty": "medium",
+    "topic": "tracks",
+    "image": "images/spa.jpg"
+  },
+  {
+    "question": "Which track is shown in this outline?",
+    "options": ["Silverstone", "Interlagos", "Suzuka", "Bahrain"],
+    "answer": 0,
+    "difficulty": "medium",
+    "topic": "tracks",
+    "image": "images/silverstone.jpg"
+  },
+  {
+    "question": "Which track is shown in this outline?",
+    "options": ["Suzuka", "Monaco", "Baku", "Singapore"],
+    "answer": 0,
+    "difficulty": "medium",
+    "topic": "tracks",
+    "image": "images/suzuka.png"
+  },
+  {
+    "question": "Which track is shown in this outline?",
+    "options": ["Baku", "Jeddah", "Singapore", "Monaco"],
+    "answer": 0,
+    "difficulty": "medium",
+    "topic": "tracks",
+    "image": "images/baku.jpg"
+  },
+  {
+    "question": "Which track is shown in this outline?",
+    "options": ["Jeddah", "Baku", "Singapore", "Monaco"],
+    "answer": 0,
+    "difficulty": "medium",
+    "topic": "tracks",
+    "image": "images/jeddah.png"
+  },
+  {
+    "question": "Which track is shown in this outline?",
+    "options": ["Singapore", "Baku", "Monaco", "Jeddah"],
+    "answer": 0,
+    "difficulty": "medium",
+    "topic": "tracks",
+    "image": "images/singapore.png"
+  },
+  {
+    "question": "Which track is shown in this outline?",
+    "options": ["Sao Paulo", "Silverstone", "Spa-Francorchamps", "Hungary"],
+    "answer": 0,
+    "difficulty": "medium",
+    "topic": "tracks",
+    "image": "images/interlagos.png"
+  },
+  {
+    "question": "Which track is shown in this outline?",
+    "options": ["Hungary", "Monza", "Spa-Francorchamps", "Silverstone"],
+    "answer": 0,
+    "difficulty": "medium",
+    "topic": "tracks",
+    "image": "images/hungaroring.png"
+  },
+  {
+    "question": "Which track is shown in this outline?",
+    "options": ["Bahrain", "Suzuka", "Monaco", "Silverstone"],
+    "answer": 0,
+    "difficulty": "medium",
+    "topic": "tracks",
+    "image": "images/bahrain.png"
+  },
+  {
+    "question": "Who won the 2021 Formula 1 Drivers’ Championship?",
+    "options": ["Lewis Hamilton", "Max Verstappen", "Valtteri Bottas", "Charles Leclerc"],
+    "answer": 1,
+    "difficulty": "easy",
+    "year": 2021,
+    "topic": "championships"
+  },
+  {
+    "question": "Which team won the 2021 Constructors’ Championship?",
+    "options": ["Red Bull Racing", "Ferrari", "Mercedes", "McLaren"],
+    "answer": 2,
+    "difficulty": "easy",
+    "year": 2021,
+    "topic": "championships"
+  },
+  {
+    "question": "Who became World Champion in 2022?",
+    "options": ["Lewis Hamilton", "Charles Leclerc", "Max Verstappen", "Sergio Pérez"],
+    "answer": 2,
+    "difficulty": "easy",
+    "year": 2022,
+    "topic": "championships"
+  },
+  {
+    "question": "Who won the 2023 Drivers’ title?",
+    "options": ["Max Verstappen", "Sergio Pérez", "Lewis Hamilton", "Fernando Alonso"],
+    "answer": 0,
+    "difficulty": "easy",
+    "year": 2023,
+    "topic": "championships"
+  },
+  {
+    "question": "Which team dominated Formula 1 from 2021 to 2023?",
+    "options": ["Mercedes", "Ferrari", "Red Bull Racing", "McLaren"],
+    "answer": 2,
+    "difficulty": "easy",
+    "year": 2023,
+    "topic": "teams"
+  },
+  {
+    "question": "Who won the 2024 Drivers’ Championship?",
+    "options": ["Max Verstappen", "Lando Norris", "Charles Leclerc", "Lewis Hamilton"],
+    "answer": 0,
+    "difficulty": "easy",
+    "year": 2024,
+    "topic": "championships"
+  },
+  {
+    "question": "Which driver won the 2025 World Drivers’ Championship?",
+    "options": ["Max Verstappen", "Lando Norris", "Oscar Piastri", "George Russell"],
+    "answer": 1,
+    "difficulty": "easy",
+    "year": 2025,
+    "topic": "championships"
+  },
+  {
+    "question": "Which team secured the Constructors’ Championship in 2025?",
+    "options": ["Red Bull Racing", "Ferrari", "Mercedes", "McLaren"],
+    "answer": 3,
+    "difficulty": "easy",
+    "year": 2025,
+    "topic": "championships"
+  },
+  {
+    "question": "Who drives for Mercedes-AMG Petronas as of 2026?",
+    "options": ["Lewis Hamilton & George Russell", "George Russell & Kimi Antonelli", "Lando Norris & Oscar Piastri", "Charles Leclerc & Carlos Sainz"],
+    "answer": 1,
+    "difficulty": "easy",
+    "year": 2026,
+    "topic": "drivers"
+  },
+  {
+    "question": "Which team nickname is the 'Prancing Horse'?",
+    "options": ["Ferrari", "Red Bull Racing", "Mercedes", "Alpine"],
+    "answer": 0,
+    "difficulty": "easy",
+    "year": 2024,
+    "topic": "teams"
+  },
+  {
+    "question": "Which Formula 1 team is nicknamed 'The Silver Arrows'?",
+    "options": ["Ferrari", "Mercedes", "McLaren", "Aston Martin"],
+    "answer": 1,
+    "difficulty": "easy",
+    "year": 2024,
+    "topic": "teams"
+  },
+  {
+    "question": "Which team calls itself 'The Bulls'?",
+    "options": ["Ferrari", "Red Bull Racing", "AlphaTauri", "Haas"],
+    "answer": 1,
+    "difficulty": "easy",
+    "year": 2024,
+    "topic": "teams"
+  },
+  {
+    "question": "Which sponsor joined Ferrari in 2024, replacing Santander’s prime slot?",
+    "options": ["Shell", "HP", "AWS", "Lenovo"],
+    "answer": 1,
+    "difficulty": "easy",
+    "year": 2024,
+    "topic": "sponsors"
+  },
+  {
+    "question": "Which company sponsors Red Bull’s title partnership since 2022?",
+    "options": ["Google", "Oracle", "Amazon", "IBM"],
+    "answer": 1,
+    "difficulty": "easy",
+    "year": 2022,
+    "topic": "sponsors"
+  },
+  {
+    "question": "Who drove for Haas F1 Team in 2022 alongside Kevin Magnussen?",
+    "options": ["Nico Hülkenberg", "Mick Schumacher", "Romain Grosjean", "Esteban Ocon"],
+    "answer": 1,
+    "difficulty": "easy",
+    "year": 2022,
+    "topic": "drivers"
+  },
+  {
+    "question": "Which team finished last in the Constructors’ standings in 2023?",
+    "options": ["Williams", "AlphaTauri", "Haas", "Alfa Romeo"],
+    "answer": 2,
+    "difficulty": "easy",
+    "year": 2023,
+    "topic": "teams"
+  },
+  {
+    "question": "Who replaced Nyck de Vries at AlphaTauri in 2023?",
+    "options": ["Daniel Ricciardo", "Liam Lawson", "Yuki Tsunoda", "Pierre Gasly"],
+    "answer": 0,
+    "difficulty": "easy",
+    "year": 2023,
+    "topic": "drivers"
+  },
+  {
+    "question": "Who took his first F1 victory at the 2023 Miami Grand Prix?",
+    "options": ["Sergio Pérez", "Max Verstappen", "Fernando Alonso", "George Russell"],
+    "answer": 1,
+    "difficulty": "easy",
+    "year": 2023,
+    "topic": "race_results"
+  },
+  {
+    "question": "Which driver has the most pole positions since 2021?",
+    "options": ["Charles Leclerc", "Max Verstappen", "Lewis Hamilton", "Lando Norris"],
+    "answer": 1,
+    "difficulty": "easy",
+    "year": 2024,
+    "topic": "stats"
+  },
+  {
+    "question": "Who has the most race wins since 2021?",
+    "options": ["Max Verstappen", "Lewis Hamilton", "Sergio Pérez", "Charles Leclerc"],
+    "answer": 0,
+    "difficulty": "easy",
+    "year": 2024,
+    "topic": "stats"
+  },
+  {
+    "question": "Which driver is known as 'Smooth Operator' on team radio?",
+    "options": ["Carlos Sainz Jr.", "Fernando Alonso", "Lando Norris", "Daniel Ricciardo"],
+    "answer": 0,
+    "difficulty": "easy",
+    "year": 2024,
+    "topic": "drivers"
+  },
+  {
+    "question": "Who’s the young Italian driving for Mercedes in 2026?",
+    "options": ["Antonio Giovinazzi", "Kimi Antonelli", "Luca Ghiotto", "Franco Colapinto"],
+    "answer": 1,
+    "difficulty": "easy",
+    "year": 2026,
+    "topic": "drivers"
+  },
+  {
+    "question": "Which team’s title sponsor is Stake (as of 2024)?",
+    "options": ["Williams", "Kick Sauber", "Haas", "Alpine"],
+    "answer": 1,
+    "difficulty": "easy",
+    "year": 2024,
+    "topic": "teams"
+  },
+  {
+    "question": "Who was named Rookie of the Year in 2023?",
+    "options": ["Logan Sargeant", "Oscar Piastri", "Nyck de Vries", "Liam Lawson"],
+    "answer": 1,
+    "difficulty": "easy",
+    "year": 2023,
+    "topic": "awards"
+  },
+
+  {
+    "question": "What was the minimum car weight (including driver) under 2022 regulations?",
+    "options": ["752 kg", "780 kg", "798 kg", "820 kg"],
+    "answer": 2,
+    "difficulty": "medium",
+    "year": 2022,
+    "topic": "regulations"
+  },
+  {
+    "question": "Which driver claimed pole position at the 2022 Monaco Grand Prix?",
+    "options": ["Max Verstappen", "Carlos Sainz Jr.", "Charles Leclerc", "Sergio Pérez"],
+    "answer": 2,
+    "difficulty": "medium",
+    "year": 2022,
+    "topic": "qualifying"
+  },
+  {
+    "question": "Who won the 2022 British Grand Prix at Silverstone?",
+    "options": ["Lewis Hamilton", "Max Verstappen", "Carlos Sainz Jr.", "Charles Leclerc"],
+    "answer": 2,
+    "difficulty": "medium",
+    "year": 2022,
+    "topic": "race_results"
+  },
+  {
+    "question": "What is the budget cap for Formula 1 teams in 2023?",
+    "options": ["$120M", "$135M", "$145M", "$160M"],
+    "answer": 1,
+    "difficulty": "medium",
+    "year": 2023,
+    "topic": "finance"
+  },
+  {
+    "question": "What’s the average top speed reached on the Monza straight (approx.)?",
+    "options": ["300 km/h", "320 km/h", "350 km/h", "370 km/h"],
+    "answer": 2,
+    "difficulty": "medium",
+    "year": 2023,
+    "topic": "tracks"
+  },
+  {
+    "question": "Which car component stores kinetic energy during braking?",
+    "options": ["Turbocharger", "MGU-K", "DRS", "Intercooler"],
+    "answer": 1,
+    "difficulty": "medium",
+    "year": 2022,
+    "topic": "technical"
+  },
+  {
+    "question": "Who became the Team Principal of Ferrari in 2023?",
+    "options": ["Mattia Binotto", "Frédéric Vasseur", "Toto Wolff", "Christian Horner"],
+    "answer": 1,
+    "difficulty": "medium",
+    "year": 2023,
+    "topic": "teams"
+  },
+  {
+    "question": "Which driver achieved his maiden podium at the 2023 Qatar Grand Prix?",
+    "options": ["Oscar Piastri", "Lando Norris", "George Russell", "Yuki Tsunoda"],
+    "answer": 0,
+    "difficulty": "medium",
+    "year": 2023,
+    "topic": "race_results"
+  },
+  {
+    "question": "Who won the 2021 Abu Dhabi Grand Prix?",
+    "options": ["Lewis Hamilton", "Max Verstappen", "Valtteri Bottas", "Sergio Pérez"],
+    "answer": 1,
+    "difficulty": "medium",
+    "year": 2021,
+    "topic": "race_results"
+  },
+  {
+    "question": "Which driver has taken a win for McLaren since 2021?",
+    "options": ["Lando Norris", "Oscar Piastri", "Daniel Ricciardo", "Carlos Sainz Jr."],
+    "answer": 2,
+    "difficulty": "medium",
+    "year": 2021,
+    "topic": "race_results"
+  },
+  {
+    "question": "In what year did pit-stop times first drop below 2 seconds again post-COVID?",
+    "options": ["2021", "2022", "2023", "2024"],
+    "answer": 1,
+    "difficulty": "medium",
+    "year": 2022,
+    "topic": "stats"
+  },
+  {
+    "question": "What tyre compound is marked yellow by Pirelli?",
+    "options": ["Soft", "Medium", "Hard", "Intermediate"],
+    "answer": 1,
+    "difficulty": "medium",
+    "year": 2023,
+    "topic": "technical"
+  },
+  {
+    "question": "Which team averaged the fastest pit stop times in 2022?",
+    "options": ["Ferrari", "Mercedes", "Red Bull Racing", "McLaren"],
+    "answer": 2,
+    "difficulty": "medium",
+    "year": 2022,
+    "topic": "stats"
+  },
+  {
+    "question": "How many drivers scored at least one win in the 2023 season?",
+    "options": ["2", "3", "4", "5"],
+    "answer": 1,
+    "difficulty": "medium",
+    "year": 2023,
+    "topic": "stats"
+  },
+  {
+    "question": "Who replaced Mattia Binotto as Ferrari team principal?",
+    "options": ["Frédéric Vasseur", "Toto Wolff", "Andreas Seidl", "Otmar Szafnauer"],
+    "answer": 0,
+    "difficulty": "medium",
+    "year": 2023,
+    "topic": "teams"
+  },
+  {
+    "question": "How many laps was the shortest F1 race (Spa 2021)?",
+    "options": ["0", "1", "2", "3"],
+    "answer": 1,
+    "difficulty": "medium",
+    "year": 2021,
+    "topic": "history"
+  },
+  {
+    "question": "Which F1 track is known for the Eau Rouge–Raidillon sequence?",
+    "options": ["Monza", "Spa-Francorchamps", "Suzuka", "Silverstone"],
+    "answer": 1,
+    "difficulty": "medium",
+    "year": 2023,
+    "topic": "tracks"
+  },
+  {
+    "question": "What engine supplier did Red Bull begin producing with from 2022 onward?",
+    "options": ["Ferrari", "Honda-based Red Bull Powertrains", "Mercedes", "Renault"],
+    "answer": 1,
+    "difficulty": "medium",
+    "year": 2022,
+    "topic": "technical"
+  },
+  {
+    "question": "Which constructor joined F1 as the 11th team in 2026?",
+    "options": ["Andretti", "Cadillac", "Porsche", "Audi"],
+    "answer": 1,
+    "difficulty": "medium",
+    "year": 2026,
+    "topic": "teams"
+  },
+  {
+    "question": "Which British driver joined Ferrari in 2025?",
+    "options": ["George Russell", "Lando Norris", "Lewis Hamilton", "Alex Albon"],
+    "answer": 2,
+    "difficulty": "medium",
+    "year": 2025,
+    "topic": "drivers"
+  },
+  {
+    "question": "Which team’s 2024 livery featured HP branding on its engine cover?",
+    "options": ["Mercedes", "Ferrari", "McLaren", "Williams"],
+    "answer": 1,
+    "difficulty": "medium",
+    "year": 2024,
+    "topic": "teams"
+  },
+  {
+    "question": "Which driver ended 2023 with the most DNFs?",
+    "options": ["Logan Sargeant", "Yuki Tsunoda", "Valtteri Bottas", "Kevin Magnussen"],
+    "answer": 0,
+    "difficulty": "medium",
+    "year": 2023,
+    "topic": "stats"
+  },
+    {
+    "question": "How fast is an F1 car down a straight on avg?",
+    "options": ["215mph", "180mph", "250mph", "275mph"],
+    "answer": 0,
+    "difficulty": "medium",
+    "year": 2023,
+    "topic": "stats"
+  }
+
+]
