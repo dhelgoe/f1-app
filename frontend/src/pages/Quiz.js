@@ -162,7 +162,10 @@ function Quiz({ onFinish }) {
               Speed bonus: +{result.bonus} points (answered in {result.time}s)
             </>
           ) : (
-            <>Wrong! 0 points</>
+            <>
+              Wrong! 0 points<br />
+              Correct answer: <b>{q.options[q.answer]}</b>
+            </>
           )}
           <br />
           <button style={{ marginTop: '1rem' }} onClick={handleNext}>Next</button>
